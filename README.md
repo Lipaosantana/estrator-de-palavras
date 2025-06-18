@@ -1,4 +1,3 @@
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -6,34 +5,69 @@
   <title>Extrator de Palavras-chave</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 40px;
-      background: #f0f0f0;
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+      color: #333;
     }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
     textarea {
       width: 100%;
       height: 200px;
-      padding: 10px;
+      padding: 15px;
       font-size: 16px;
+      border: 2px solid #6c757d;
+      border-radius: 8px;
       resize: vertical;
+      background: #ffffff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
+
     button {
-      padding: 10px 20px;
-      margin-top: 10px;
+      background-color: #4a69bd;
+      color: white;
+      border: none;
+      padding: 12px 24px;
       font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background-color 0.3s ease;
     }
+
+    button:hover {
+      background-color: #3b53a3;
+    }
+
     .resultado {
-      margin-top: 20px;
-      padding: 10px;
-      background: #fff;
-      border: 1px solid #ccc;
+      margin-top: 25px;
+      padding: 20px;
+      background: #ffffff;
+      border: 2px solid #ced4da;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
+
     .palavra {
       display: inline-block;
-      background: #e0e0ff;
-      margin: 4px;
-      padding: 6px 10px;
-      border-radius: 6px;
+      background: #a29bfe;
+      color: white;
+      margin: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .palavra:hover {
+      transform: scale(1.1);
+      background: #6c5ce7;
     }
   </style>
 </head>
@@ -80,3 +114,4 @@
   </script>
 </body>
 </html>
+
