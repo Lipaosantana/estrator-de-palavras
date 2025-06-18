@@ -1,0 +1,1 @@
+# estrator-de-palavras
